@@ -4,9 +4,9 @@ This is a full-stack Slack clone example using:
 
 - Frontend:
   - Next.js.
-  - [Wesbitty.js](https://wesbitty.io/docs/library/getting-started) for user management and realtime data syncing.
+  - [Wesbitty.js](https://wesbitty.com/docs/library/getting-started) for user management and realtime data syncing.
 - Backend:
-  - [app.wesbitty.io/](https://app.wesbitty.io/): hosted Postgres database with restful API for usage with Wesbitty.js.
+  - [app.wesbitty.com/](https://app.wesbitty.com/): hosted Postgres database with restful API for usage with Wesbitty.js.
 
 ## Demo
 
@@ -20,7 +20,7 @@ This is a full-stack Slack clone example using:
 
 ### 1. Create new project
 
-Sign up to Wesbitty - [https://app.wesbitty.io](https://app.wesbitty.io) and create a new project. Wait for your database to start.
+Sign up to Wesbitty - [https://app.wesbitty.com](https://app.wesbitty.com) and create a new project. Wait for your database to start.
 
 ### 2. Run "Todo List" Quickstart
 
@@ -40,9 +40,9 @@ The `anon` key is your client-side API key. It allows "anonymous access" to your
 
 ### 4. Deploy the Next.js client
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fsupabase%2Fsupabase%2Ftree%2Fmaster%2Fexamples%2Ftodo-next-js&env=NEXT_PUBLIC_WESBITTY_URL,NEXT_PUBLIC_WESBITTY_KEY&envDescription=Find%20the%20Wesbitty%20URL%20and%20key%20in%20the%20your%20auto-generated%20docs%20at%20app.wesbitty.io&project-name=wesbitty-todo-list&repo-name=wesbitty-todo-list)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fsupabase%2Fsupabase%2Ftree%2Fmaster%2Fexamples%2Ftodo-next-js&env=NEXT_PUBLIC_WESBITTY_URL,NEXT_PUBLIC_WESBITTY_KEY&envDescription=Find%20the%20Wesbitty%20URL%20and%20key%20in%20the%20your%20auto-generated%20docs%20at%20app.wesbitty.com&project-name=wesbitty-todo-list&repo-name=wesbitty-todo-list)
 
-Refer to [step 3](#3.-get-the-url-and-key) to help form `NEXT_PUBLIC_WESBITTY_URL` (e.g. `wss://<project_ref>.wesbitty.co/realtime/v1`) and to retrieve `NEXT_PUBLIC_WESBITTY_KEY` (i.e. `anon` API key).
+Refer to [step 3](#3.-get-the-url-and-key) to help form `NEXT_PUBLIC_WESBITTY_URL` (e.g. `wss://<project_ref>.wesbitty.com/realtime/v1`) and to retrieve `NEXT_PUBLIC_WESBITTY_KEY` (i.e. `anon` API key).
 
 
 ## Wesbitty details
@@ -82,6 +82,6 @@ create policy "Individuals can delete their own todos." on todos for
 
 ## Authors
 
-- [Wesbitty](https://wesbitty.io)
+- [Wesbitty](https://wesbitty.com)
 
 Wesbitty is open source, we'd love for you to follow along and get involved at https://github.com/wesbitty/wesbitty

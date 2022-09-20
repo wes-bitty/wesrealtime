@@ -18,7 +18,7 @@ var client = new RealtimeClient(process.env.REALTIME_URL)
 client.connect()
 ```
 
-REALTIME_URL is `'ws://localhost:4000/socket'` when developing locally and `'wss://<project_ref>.wesbitty.co/realtime/v1'` when connecting to your Wesbitty project.
+REALTIME_URL is `'ws://localhost:4000/socket'` when developing locally and `'wss://<project_ref>.wesbitty.com/realtime/v1'` when connecting to your Wesbitty project.
 
 You can pass in your JWT If you have enabled JWT authorization in Wesbitty [Realtime](https://github.com/wes-bitty/wesrealtime) server.
 
