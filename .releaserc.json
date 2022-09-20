@@ -1,6 +1,6 @@
 {
   "branches": [
-    { "name": "master" },
+    { "name": "main" },
     { "name": "next", "channel": "next", "prerelease": true },
     { "name": "rc", "channel": "rc", "prerelease": true }
   ],
@@ -15,7 +15,7 @@
           "dist/module/lib/version.js",
           "dist/module/lib/version.d.ts"
         ],
-        "placeholder": "0.0.0-automated"
+        "placeholder": "0.0.0"
       }
     ],
     "@semantic-release/commit-analyzer",
